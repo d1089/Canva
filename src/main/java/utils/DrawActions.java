@@ -45,9 +45,16 @@ public class DrawActions
 	}
     
     public void drawLine(int x1,int y1,int x2,int y2) {
+    	int height = canvasDrawArea.getSize().getHeight()/2;
+    	int width = canvasDrawArea.getSize().getWidth()/2;
+    	x1 -= width;
+    	x2 -= width;
+    	y1 -= height;
+    	y2 -= height;
+    	System.out.println(width+" and "+height);
     	btnLineDraw.click();
     	Actions action = new Actions(driver);
-    	action.moveToElement(canvasDrawArea, x1-300, y1-250).click();
-    	action.moveToElement(canvasDrawArea, x2-300, y2-250).click().build().perform();
+    	action.moveToElement(canvasDrawArea, x1, y1).click();
+    	action.moveToElement(canvasDrawArea, x2, y2).click().build().perform();
     }
 }

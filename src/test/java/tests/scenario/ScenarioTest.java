@@ -50,17 +50,17 @@ public class ScenarioTest
 	}
 	
     @Test
-    public void tc1()
+    public void scenario1()
     {
         driver.get(baseURL);
         DrawActions activity = new DrawActions(driver);
-        activity.drawLine(200, 200, 400, 400);
-        activity.drawLine(300, 100, 300, 300);
+        activity.drawLine(200, 250, 400, 250); // -100  0  100  0
+        activity.drawLine(300, 350, 300, 150); //   0  100  0 -100
     }
     
     @After
     public void tearDown() throws Exception {
-    	Thread.sleep(3000);
+    	Thread.sleep(9000);
     	driver.quit();
     }
     
