@@ -18,7 +18,7 @@
  
 ## Demo Link
 > *Note: you can see the demo by clicking this link [View Demo]*
-
+<img src="https://github.com/d1089/Canva/blob/main/demo/AutomationDemo.gif" width="auto" height="auto" />
 
 [WebSite]: <http://htmlcanvasstudio.com/>
 [View Demo]: <https://tinyurl.com/viewdemocanva>
