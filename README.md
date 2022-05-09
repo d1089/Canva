@@ -1,5 +1,5 @@
 # Canva
-
+![MadeBy](https://img.shields.io/badge/made%20by-dipakpr96-blue)
 ## Assignment
  - As per requirement, to draw a horizontal and vertical lines *(which should intersect eachother)* on given [WebSite] using Automation.
  
@@ -18,8 +18,6 @@
  
 ## Demo Link
 > *Note: you can see the demo by clicking this link [View Demo]*
-
-
 
 
 [WebSite]: <http://htmlcanvasstudio.com/>
