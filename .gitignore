@@ -1,0 +1,4 @@
+#src/main/java/asset/drivers/
+*.exe
+.*
+!.gitignore
