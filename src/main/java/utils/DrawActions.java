@@ -45,13 +45,15 @@ public class DrawActions
 	}
     
     public void drawLine(int x1,int y1,int x2,int y2) {
+    	
+    	//shift of origin
     	int height = canvasDrawArea.getSize().getHeight()/2;
     	int width = canvasDrawArea.getSize().getWidth()/2;
     	x1 -= width;
     	x2 -= width;
     	y1 -= height;
     	y2 -= height;
-    	System.out.println(width+" and "+height);
+    	System.out.println("Origin set to (0, 0)");
     	btnLineDraw.click();
     	Actions action = new Actions(driver);
     	action.moveToElement(canvasDrawArea, x1, y1).click();
